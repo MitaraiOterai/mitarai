@@ -1,0 +1,62 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	float a,b,c,delta;
+	cout <<"请输入二次项：";
+	cin>>a;
+	cout<<"请输入一次项：";
+	cin>>b;
+	cout<<"请输入常数项：";
+	cin>>c; 
+	delta=(b*b)-(4*a*c);
+	if(delta<0){
+ 
+cout<<"	  . . . D * * * * W L : . . .   . . : j D E D D D G t ,     . : . . . . .     : : . .         	"<<endl;
+cout<<"	        : i W * * * * * * * D . : j E E D i : . . . . .   . ; f G f : . : . . f W K D t . .         	"<<endl;
+cout<<"	        : K * * * * * * * * * D E f ; : : .         .         . , j G i : , K * * * * W E ,         	"<<endl;
+cout<<"	        j * * * * * * * * * * i . .     .           .       . . . .   i E * * * * * * * W W ;       	"<<endl;
+cout<<"	        L * * * * * * * * * E . . .                                 . . . D * * * * * * * * L .     	"<<endl;
+cout<<"	        E * * * * * * * * * ;   . .                                 . . . : K * * * * * * * * .     	"<<endl;
+cout<<"	        E * * * * * * * W i .                                             . t * * * * * * * * i     	"<<endl;
+cout<<"	        E * * * * * * * i   .                                             .   D * * * * * * * f     	"<<endl;
+cout<<"	        G * * * * * * D               . . . .                       . . . . : : * * * * * * * G     	"<<endl;
+cout<<"	    . . , * * * * * W , .             . .     . .                   . . . . . : G * * * * * * t     	"<<endl;
+cout<<"	        . G * * * * G .               . , t f f f j t i :       : ; , . . . : : ; * * * * * * :     	"<<endl;
+cout<<"	          : K * * * i .             . , G E K K W * E L t .   . t G E D , .       W * * * * W .     	"<<endl;
+cout<<"	            : G W K : .               ; t t i ; f f L G f , .   t j L E E j . : . f * * * K ; .     	"<<endl;
+cout<<"	                t , .               . ; , .     . : j f L j : ; t t t ; t L f . : : * W f     .     	"<<endl;
+cout<<"	                f                   . , , ; L G L f i ; j i . i ; , .   : : ;   .   D .             	"<<endl;
+cout<<"	              : ; .                   : t j L K K E ,   . .     ; L t t   : .   .   j i             	"<<endl;
+cout<<"	              L , .                   . . . ; i ,   .   . . . . : , * W f :         : K             	"<<endl;
+cout<<"	              L : .         . .           .             . . . .   . t , . .         . *             	"<<endl;
+cout<<"	            , j . .         . : .               . . .         . .   , ,             . W             	"<<endl;
+cout<<"	          . t , . .         . : . .               . .         .   : . .               L             	"<<endl;
+cout<<"	        .   f : . .         . . . .           . , i :             : ; .             . t ; .         	"<<endl;
+cout<<"	        : E *     .         . .         . . . j t , . .           . : ; , :         . ; L :         	"<<endl;
+cout<<"	      : W * K .   .                 . . ; t L j : . ; t L f j t G j t j t :           ; * t         	"<<endl;
+cout<<"	      E W W W . . .                   . i f f , :   . : f E W W K , : f i .           i * * .       	"<<endl;
+cout<<"	    . * * * * : . .                   . , j : :     .     ; i , .     , ,           . i * * D       	"<<endl;
+cout<<"	      * * * * j . .                   . . i ; : . .     : , .       . . :             f * * * i   . 	"<<endl;
+cout<<"	      * * * * E .                       . , i f L f j t f t ; t t t ; . .           : W * * W E   . 	"<<endl;
+cout<<"	      * * * * * ;                       . , , t i i t t j j f L K L , . .           : * * * * * , . 	"<<endl;
+cout<<"	      * * * * * K ; . .                 . , ; , : : .       .   :     , : .   . . . D * * * * * L . 	"<<endl;
+cout<<"	      * * * * * * * L .                 . , , , . : t i , .     . :   , , .   . : D W W * * * * *   	"<<endl;
+cout<<"	      * * * * * * * * D : . .       . . . , , , : . . . L E E D E i . : . . .   G W * * * * * * * . 	"<<endl;
+cout<<"	      * * * * * * * * W W i .   . .   .   . , , : .     ; G E E f . . . . . , G * * * * * * * * * . 	"<<endl;
+cout<<"	      * * * * * * * * * * W f           . . . : :   .   : , t i , . .     L * * * * * * * * * * * . 	"<<endl;
+cout<<"	      * * * * * * * * * * * * K f t ;   . . . . . : . . . : : , , t G W * * * * * * * * * * * * *   	"<<endl;
+cout<<"	    . * * * * * * * * * * * * * * * W t . .     : ; ; , , ; t L E * * * * * * * * * * * * * * * * . 	"<<endl;
+cout<<"	    . * * * * * * * * * * * * * * * * W * * W * W * * * * * * * * * * * * * * * * * * * * * * * * . 	"<<endl;
+cout<<"	      W W W * * * * * * W W * * * * W W * * * * * * * * * * * * * * * * * * W W * * * * * * * * * . 	"<<endl;
+cout<<"                                                           无解                                          "<<endl;
+return 0;}
+	
+	float x1,x2;
+	x1=((-b)-sqrt(delta))/2*a;
+	x2=((-b)+sqrt(delta))/2*a;
+	cout<<"该方程的两个解分别为："<<x1<<"和"<<x2<<".";
+	system("pause");
+	return 0
+;}
